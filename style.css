@@ -459,15 +459,15 @@
       font-family: 'pt-sans', sans-serif;
   }
   header{
-    height: 320px;
     background-color: #f4f7f9;
   }
 .top{
-    display: flex;
-    flex-direction: column;
+  width: 1200px;
+  height: 320px;
 }
 .top-menu{
-   
+  display: flex;
+  align-items: center;
   list-style: none;
   height: 42px;
   background-color: #293449;
@@ -477,7 +477,7 @@
   color: white;
   text-decoration: none;
 }
-.logo-tech{
+.logo-tech {
   margin-left: 130px;
   width: 220px;
   height: 43px;
@@ -485,12 +485,13 @@
   border-bottom: 3px solid #b52933;
   background-color: #ee3643;
 }
-.logo-tech p{
+.logo-tech h1 {
   font-size: 24px;
   line-height: calc(24/24);
   padding-top: 12px;
   padding-left: 55px;
   text-transform: uppercase;
+  color: white;
   margin: 0;
 }
 .search{
@@ -505,11 +506,30 @@
 .order{
   flex-grow: 4;
 }
-img{
-  margin-right: 13px;
+.user-block{
+  display: flex;
+  align-items: baseline;
+  height: 154px;
+  justify-content: space-evenly;
+  margin-left: 51px;
+}
+.shop{
+  width: 201px;
+  height: 80px;
+}
+.contact-info{
+  width: 272px;
+  height: 64px;
+}
+.contact-info p{
+  width: 272px;
+  height: 64px;
+}
+.user{
+  width: 300px;
 }
 .main-menu{
-  
+  display: flex;
   list-style: none;
   margin-left: 50;
   padding: 0;
