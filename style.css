@@ -495,7 +495,8 @@
   margin: 0;
 }
 .search{
-  flex-grow: 9;
+  flex-grow: 6;
+  padding-left: 49px;
 }
 .bookmark{
   flex-grow: 1;
@@ -504,7 +505,13 @@
   flex-grow: 1;
 }
 .order{
-  flex-grow: 4;
+  flex-grow: 3;
+}
+.order a{
+  border: 12px solid #63a63e;
+  background: #63a63e;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .user-block{
   display: flex;
