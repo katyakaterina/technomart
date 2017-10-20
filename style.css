@@ -514,26 +514,47 @@
   padding-right: 20px;
 }
 .user-block{
-  display: flex;
-  align-items: baseline;
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 190px;
   height: 154px;
-  justify-content: space-evenly;
-  margin-left: 51px;
 }
 .shop{
+  float: left;
   width: 201px;
   height: 80px;
+  font-size: 16px;
+  font-style: italic;
+  color: #ee3643;
 }
 .contact-info{
+  float: left;
   width: 272px;
-  height: 64px;
+  height: 80px;
+  margin-top: 15px;
+  margin-left: 70px;
 }
 .contact-info p{
-  width: 272px;
-  height: 64px;
+  font-size: 14px;
+  line-height: calc(24/14);
+  text-align: center;
+  color: #32425c;
+}
+.contact-info a{
+  font-size: 21px;
+  text-decoration: none;
+  color: #ee3643;
+  border: 3px solid white;
+  padding: 10px 50px 10px 75px;
 }
 .user{
+  float: left;
   width: 300px;
+  margin-left: 50px;
+}
+.user a{
+  font-size: 21px;
+  line-height: calc(18/21);
 }
 .main-menu{
   display: flex;
