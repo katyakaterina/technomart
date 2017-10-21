@@ -497,7 +497,7 @@
   margin: 0;
 }
 .search{
-  flex-grow: 5;
+  flex-grow: 4;
   padding-left: 49px;
 }
 .bookmark{
@@ -508,23 +508,23 @@
 }
 .ctg-basket a{
   border: 1px solid #ee3643;
-  padding: 20px 27px 11px 50px;
+  padding: 11px 27px 11px 50px;
   background-color: #ee3643;
 }
 .order{
   flex-grow: 3;
-  flex-basis: 120px;
+  flex-basis: 100px;
 }
 .order a{
   border: 1px solid #63a63e;
   background: #63a63e;
-  padding: 20px 23px 11px 20px;
+  padding: 11px 23px 11px 20px;
 }
 .user-block{
   display: block;
-  margin-top: 45px;
+  margin-top: 55px;
   margin-left: 130px;
-  height: 100px;
+  height: 110px;
   width: 942px;
 }
 .shop{
@@ -554,7 +554,7 @@
 }
 .user{
   float: left;
-  margin: 18px 0 0 45px;
+  margin: 18px 0 0 55px;
 }
 .user a{
   font-size: 21px;
