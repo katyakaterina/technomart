@@ -464,6 +464,8 @@
 .top{
   width: 1200px;
   height: 320px;
+  margin: 0 auto;
+
 }
 .top-menu{
   display: flex;
@@ -482,7 +484,7 @@
   width: 220px;
   height: 43px;
   border: 1px solid #ee3643;
-  border-bottom: 3px solid #b52933;
+  border-bottom: 5px solid #b52933;
   background-color: #ee3643;
 }
 .logo-tech h1 {
@@ -495,7 +497,7 @@
   margin: 0;
 }
 .search{
-  flex-grow: 6;
+  flex-grow: 3;
   padding-left: 49px;
 }
 .bookmark{
@@ -504,34 +506,37 @@
 .basket{
   flex-grow: 1;
 }
+.ctg-basket a{
+  border: 1px solid #ee3643;
+  padding: 20px 27px 11px 50px;
+  background-color: #ee3643;
+}
 .order{
-  flex-grow: 3;
+  flex-grow: 2;
 }
 .order a{
   border: 1px solid #63a63e;
   background: #63a63e;
-  padding: 20px 11px 11px 20px;
+  padding: 20px 23px 11px 20px;
 }
 .user-block{
-  display: inline-block;
+  display: block;
   margin-top: 45px;
-  margin-left: 170px;
-  height: 154px;
+  margin-left: 130px;
+  height: 100px;
+  width: 942px;
 }
 .shop{
   float: left;
   width: 201px;
-  height: 80px;
+  margin-left: 54px;
   font-size: 16px;
   font-style: italic;
   color: #ee3643;
 }
 .contact-info{
   float: left;
-  width: 272px;
-  height: 80px;
-  margin-top: 15px;
-  margin-left: 70px;
+  margin: 15px 0 0 70px;
 }
 .contact-info p{
   font-size: 14px;
@@ -548,8 +553,7 @@
 }
 .user{
   float: left;
-  width: 308px;
-  margin: 20px 50px;
+  margin: 18px 0 0 45px;
 }
 .user a{
   font-size: 21px;
@@ -565,12 +569,12 @@
   
 }
 .reg{
-padding: 14px 25px;
-margin-left: 10px;
+  padding: 14px 25px;
+  margin-left: 10px;
 }
 .ctg-user{
   float: left;
-  margin: 20px 50px;
+  margin: 18px 0 0 45px;
 }
 .ctg-user p{
   font-size: 21px;
@@ -599,6 +603,7 @@ margin-left: 10px;
   width: 940px;
   height: 55px;
   border: 1px solid #32425c;
+  border-bottom: 5px solid #293449;
   background-color: #32425c;
   margin-left: 130px;
 }
