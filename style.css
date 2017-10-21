@@ -579,7 +579,7 @@ margin-left: 10px;
   border: 1px solid white;
   background-color: white;
   padding: 14px 70px 14px 50px;
-  margin-top: -17px;
+  margin: -17px 0 5px 0;
 }
 .ctg-user a{
   font-size: 16px;
