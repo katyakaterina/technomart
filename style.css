@@ -523,7 +523,7 @@
 .user-block{
   display: block;
   margin-top: 40px;
-  margin-left: 125px;
+  margin-left: 131px;
   height: 120px;
   width: 940px;
 }
@@ -566,7 +566,7 @@
 }
 
 .log-in {
-  padding: 10px 15px 10px 45px;
+  padding: 10px 20px 10px 40px;
 }
 .reg{
   padding: 10px 20px 10px 30px;
@@ -616,32 +616,76 @@
   color: white;
   text-decoration: none;
 }
+.main-tech{
+  width: 940px;
+  margin: 0 auto;
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-top: 59px;
+}
+.item{
+  width: 300px;
+  height: 123px;
+  
+}
+.services{
+  width: 940px;
+  margin: 0 auto;
+}
+.info{
+  width: 940px;
+  margin: 0 auto;
+}
+.catalog-tech{
+  width: 940;
+  margin: 0 auto;
+}
 
-
-
-
-  .bread-crumbs li{
-    position: relative;
-    list-style: none;
-  }
+.bread-crumbs ul{
+  display: inline-block;
+  width: 360px;
+  padding: 0;
+  margin-left: -20px;
+}
+.bread-crumbs li{
+  position: relative;
+  list-style: none;
+  float: left;
+  margin-left: 19px;
+}
   /* стрелочки ^___^ */
-  .arrow::before {
-    position: absolute;
-    content: " ";
-    width: 0;
-    height: 0;
-    left: -10px;
-    border-top: 8px solid transparent;
-    border-left: 8px solid #c1c6ce;
-    border-bottom: 8px solid transparent;
-  }
-  .arrow::after {
-    position: absolute;
-    content: " ";
-    width: 0;
-    height: 0;
-    left: -12px;
-    border-top: 8px solid transparent;
-    border-left: 8px solid white;
-    border-bottom: 8px solid transparent;
-  }
+.arrow::before {
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 0;
+  left: -12px;
+  border-top: 8px solid transparent;
+  border-left: 8px solid #c1c6ce;
+  border-bottom: 8px solid transparent;
+}
+.arrow::after {
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 0;
+  left: -14px;
+  border-top: 8px solid transparent;
+  border-left: 8px solid white;
+  border-bottom: 8px solid transparent;
+}
+.filter{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+footer{
+  width: 1200px;
+  margin: 0 auto;
+  height: 298px;
+}
