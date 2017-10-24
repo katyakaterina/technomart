@@ -920,3 +920,6 @@ footer{
   width: 300px;
   height: 158px;
 }
+.bigmap{
+  display: none;
+}
