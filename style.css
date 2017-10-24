@@ -912,3 +912,7 @@ footer{
   margin: 0 auto;
   height: 298px;
 }
+#map{
+  width: 300px;
+  height: 158px;
+}
