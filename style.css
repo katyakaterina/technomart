@@ -451,7 +451,7 @@
     font-family: 'Cuprum','pt-sans', Arial, Helvetica, sans-serif; 
     margin: 0 auto;
   }
-  /* modal'ка */
+  /* modal */
   .modal{
       display: none;
   }
@@ -478,6 +478,8 @@
 .top-menu a{
   color: white;
   text-decoration: none;
+  border: 1px solid transparent;
+  padding: 18px 31px 11px;
 }
 .logo-tech a {
   margin-left: 130px;
@@ -497,27 +499,67 @@
   color: white;
   margin: 0;
 }
+/* поиск */
 .search{
-  flex-grow: 4;
+  flex-grow: 1;
+}
+.search button{
+  cursor: pointer;
   padding-left: 49px;
+  height: 41px;
+  border: none;
+  color: white;
+  background: transparent;
+  font-family: 'Cuprum' , sans-serif;
+  background-image: url(img/search-icon.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
 }
-.bookmark{
-  flex-grow: 1;
+.search form{
+  position: relative;
+  margin: 0;
+  width: 270px;
+  height: 41px;
+  top: 0px;
 }
-.basket{
-  flex-grow: 1;
+.search input{
+  position: absolute;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent;
+  height: 41px;
+  top: 0;
+  left: 16;
+  width: 270px;
+}
+/* ------------------------- */
+.bookmark a{
+  background-image: url(img/bookmark-icon.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
+  padding: 11px 27px 11px 50px;
+}
+.basket a{
+  background-image: url(img/basket-icon.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
+  padding: 11px 27px 11px 50px;
 }
 .ctg-basket a{
-  border: 1px solid #ee3643;
+  border: 1px solid transparent;
   padding: 11px 27px 11px 50px;
   background-color: #ee3643;
+  background-image: url(img/basket-icon.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
 }
 .order{
   flex-grow: 3;
-  flex-basis: 100px;
+  flex-basis: 20%;
 }
 .order a{
-  border: 1px solid #63a63e;
+  border: 1px solid transparent;
   background: #63a63e;
   padding: 11px 23px 11px 20px;
 }
@@ -639,12 +681,54 @@
 .slides a:active{
   background-color: #ba2732;
 }
-.logo-techa:hover{
+.logo-tech a:hover{
   background-color: #ca2c37;
 }
 .logo-tech a:active{
   background-color: #ba2732;
 }
+
+.order a:hover{
+  background-color: #5fbb2d;
+}
+.top-menu a:hover{
+  opacity: 0.9;
+}
+.top-menu a:active{
+  opacity: 0.7;
+}
+.top-menu:hover{
+  background-color: #212a3a;
+}
+.search button:hover{
+  background-color: #212a3a;
+}
+.search form:active{
+  background-color: white;
+  
+}
+.bookmark a:hover{
+  background-image: url(img/bookmark-icon2.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
+}
+.bookmark a:active{
+  background-color: #161d29;
+}
+.basket a:hover{
+  background-image: url(img/basket-icon2.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
+}
+.basket a:active{
+  background-color: #161d29;
+}
+.ctg-basket a:hover{
+  background-image: url(img/basket-icon2.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
+}
+/*  ----------------------------   */
 .items{
   display: grid;
   grid-template-columns: 300px 300px 300px;
