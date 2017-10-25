@@ -1110,7 +1110,6 @@ footer{
 .slide-option{
   display: none;
 }
-
 #sv-btn1:checked ~ .slides-options .slide-option:nth-child(1){
   display: block;
   height: 100%;
@@ -1132,4 +1131,5 @@ footer{
   background-position: 273px 261px;
   background-repeat: no-repeat;
 }
+/* ---_________---- */
 
