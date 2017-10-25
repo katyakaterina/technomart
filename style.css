@@ -479,23 +479,20 @@
   color: white;
   text-decoration: none;
 }
-.logo-tech a{
-  color: white;
-  text-decoration: none;
-}
-.logo-tech {
+.logo-tech a {
   margin-left: 130px;
   width: 220px;
   height: 43px;
   border: 1px solid #ee3643;
   border-bottom: 5px solid #b52933;
   background-color: #ee3643;
+  padding: 13px 55px;
+  color: white;
+  text-decoration: none;
 }
 .logo-tech h1 {
   font-size: 24px;
   line-height: calc(24/24);
-  padding-top: 12px;
-  padding-left: 55px;
   text-transform: uppercase;
   color: white;
   margin: 0;
@@ -568,7 +565,6 @@
   color: black;
   text-decoration: none;
 }
-
 .log-in {
   padding: 10px 20px 10px 40px;
 }
@@ -595,12 +591,10 @@
   color: #32425c;
   margin-left: 70px;
 }
-
 .main-menu{
   display: flex;
   list-style: none;
-  margin-left: 50;
-  padding: 0;
+  padding: 2px 21px;
 }
 .menu{
   width: 940px;
@@ -619,10 +613,37 @@
 .main-menu a{
   color: white;
   text-decoration: none;
+  border: 1px solid transparent;
+  padding: 18px 31px 23px;
 }
 .main-tech{
   width: 940px;
   margin: 0 auto;
+}
+/* ссылки */
+.menu a:hover{
+  background-color: #293449;
+}
+.main-menu a:active{
+  background-color: #1d2739;
+}
+.items a:hover{
+  background-color:#cccccc;
+}
+.items a:active{
+  background-color: #b2b2b2;
+}
+.slides a:hover{
+  background-color: #ca2c37;
+}
+.slides a:active{
+  background-color: #ba2732;
+}
+.logo-techa:hover{
+  background-color: #ca2c37;
+}
+.logo-tech a:active{
+  background-color: #ba2732;
 }
 .items{
   display: grid;
@@ -644,16 +665,17 @@
   color: white;
   font-size: 24px;
   line-height: calc(30/24);
-  margin: 15px 0 0 25px;
+  padding-left: 25px;
 }
 .item a{
   margin: 0 20px 0px 25px;
-  position: relative;
-  top: -30px;
 }
 .yellow{
   border: 1px solid #ffbf47;
   background: #ffbf47;
+  background-image: url(img/item1.png);
+  background-position: 213px 31px;
+  background-repeat: no-repeat;
 }
 .yellow a{
   text-decoration: none;
@@ -669,6 +691,9 @@
 .blue{
   border: 1px solid#3bbce3;
   background: #3bbce3;
+  background-image: url(img/item2.png);
+  background-position: 197px 33px;
+  background-repeat: no-repeat;
 }
 .blue a{
   text-decoration: none;
@@ -684,6 +709,9 @@
 .lilac{
   border: 1px solid#dc91d8;
   background: #dc91d8;
+  background-image: url(img/item3.png);
+  background-position: 191px 31px;
+  background-repeat: no-repeat;
 }
 .lilac a{
   text-decoration: none;
@@ -700,6 +728,9 @@
   grid-column-start: 3;
   border: 1px solid #8ed78f;
   background: #8ed78f;
+  background-image: url(img/item4.png);
+  background-position: 195px 26px;
+  background-repeat: no-repeat;
 }
 .discount a{
   text-decoration: none;
@@ -716,6 +747,9 @@
   grid-column-start: 3;
   border: 1px solid#ffc047;
   background: #ffc047; 
+  background-image: url(img/item5.png);
+  background-position: 191px 32px;
+  background-repeat: no-repeat;
 }
 .del a{
   text-decoration: none;
