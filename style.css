@@ -593,6 +593,9 @@
   color: #ee3643;
   border: 3px solid white;
   padding: 10px 50px 10px 80px;
+  background-image: url(img/phone-icon.png);
+  background-position: 10px 13px;
+  background-repeat: no-repeat;
 }
 .user{
   float: left;
@@ -703,7 +706,7 @@
   opacity: 0.9;
 }
 .top-menu a:active{
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .top-menu:hover{
   background-color: #212a3a;
@@ -765,8 +768,18 @@
   background-position: 268px 14px;
   background-repeat: no-repeat;
 }
-
-
+.ctg-user p:active{
+  background-image: url(img/logout-icon.png);
+  background-position: 268px 14px;
+  background-repeat: no-repeat;
+  color:#c5c5c5;
+}
+.ctg-user a:hover{
+  color: #ee3643;
+}
+.ctg-user a:active{
+  color:#c3c9d1;
+}
 /*  ----------------------------   */
 .items{
   display: grid;
@@ -924,7 +937,7 @@
   font-size: 14px;
   line-height: calc(18/14);
   padding: 14px 50px;
-  border: 1px solid #ee3643;
+  border: 1px solid transparent;
   background: #ee3643;
   border-radius: 5px;
   margin-left: 25;
@@ -976,7 +989,7 @@
   top: 2px;
   left: 19px;
 }
-/*  slider */
+/* ----------------------- */
 .pop-goods{
   display: flex;
   justify-content: space-between;
@@ -1007,10 +1020,24 @@
   display: table;
   clear: both;
 }
-
 .services{
   width: 940px;
   margin: 0 auto;
+}
+.delievery{
+  background-image: url(img/car.png);
+  background-position: 273px 261px;
+  background-repeat: no-repeat;
+}
+.guarantee{
+  background-image: url(img/medal.png);
+  background-position: 273px 261px;
+  background-repeat: no-repeat;
+}
+.credit{
+  background-image: url(img/money.png);
+  background-position: 273px 261px;
+  background-repeat: no-repeat;
 }
 .info{
   width: 940px;
@@ -1020,7 +1047,6 @@
   width: 940;
   margin: 0 auto;
 }
-
 .bread-crumbs ul{
   display: inline-block;
   width: 360px;
@@ -1080,3 +1106,36 @@ footer{
 .bigmap{
   display: none;
 }
+
+
+
+
+.slide-option{
+  display: none;
+}
+.slide-option:nth-child(1){
+  display: block;
+  background-image: url(img/car.png);
+  background-position: 273px 261px;
+  background-repeat: no-repeat;
+}
+.slide-option:nth-child(2){
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.slide-option:nth-child(3){
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+#sv-btn1:checked ~ .slides-options .slide-option:nth-child(1){
+  display: block;
+}
+#sv-btn2:checked ~ .slides-options .slide-option:nth-child(2){
+  display: block;
+}
+#sv-btn3:checked ~ .slides-options .slide-option:nth-child(3){
+  display: block;
+}
+
