@@ -1106,36 +1106,30 @@ footer{
 .bigmap{
   display: none;
 }
-
-
-
-
+/* slider 2 */
 .slide-option{
   display: none;
 }
-.slide-option:nth-child(1){
+
+#sv-btn1:checked ~ .slides-options .slide-option:nth-child(1){
   display: block;
+  height: 100%;
   background-image: url(img/car.png);
   background-position: 273px 261px;
   background-repeat: no-repeat;
 }
-.slide-option:nth-child(2){
-  display: block;
-  background-repeat: no-repeat;
-  background-position: 100%;
-}
-.slide-option:nth-child(3){
-  display: block;
-  background-repeat: no-repeat;
-  background-position: 100%;
-}
-#sv-btn1:checked ~ .slides-options .slide-option:nth-child(1){
-  display: block;
-}
 #sv-btn2:checked ~ .slides-options .slide-option:nth-child(2){
   display: block;
+  height: 100%;
+  background-image: url(img/medal.png);
+  background-position: 273px 261px;
+  background-repeat: no-repeat;
 }
 #sv-btn3:checked ~ .slides-options .slide-option:nth-child(3){
   display: block;
+  height: 100%;
+  background-image: url(img/money.png);
+  background-position: 273px 261px;
+  background-repeat: no-repeat;
 }
 
