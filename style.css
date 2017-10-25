@@ -526,11 +526,10 @@
   position: absolute;
   border: none;
   outline: none;
-  border-radius: 5px;
   background-color: transparent;
   height: 41px;
   top: 0;
-  left: 16;
+  left: 0;
   width: 270px;
 }
 /* ------------------------- */
@@ -609,6 +608,9 @@
 }
 .log-in {
   padding: 10px 20px 10px 40px;
+  background-image: url(img/login-icon.png);
+  background-position: 14px;
+  background-repeat: no-repeat;
 }
 .reg{
   padding: 10px 20px 10px 30px;
@@ -625,7 +627,14 @@
   background-color: white;
   padding: 14px 70px 14px 50px;
   margin: 5px 0px 5px 37px;
+  background-image: url(img/user-icon.png);
+  background-position: 14px;
+  background-repeat: no-repeat;
+  background-image: url(img/logout-icon.png);
+  background-position: 268px 14px;
+  background-repeat: no-repeat;
 }
+
 .ctg-user a{
   font-size: 16px;
   line-height: calc(18/16);
@@ -687,7 +696,6 @@
 .logo-tech a:active{
   background-color: #ba2732;
 }
-
 .order a:hover{
   background-color: #5fbb2d;
 }
@@ -700,12 +708,17 @@
 .top-menu:hover{
   background-color: #212a3a;
 }
-.search button:hover{
+.search:hover{
   background-color: #212a3a;
+  background-image: url(img/search-icon2.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
 }
-.search form:active{
+.search input:focus{
   background-color: white;
-  
+  background-image: url(img/search-icon3.png);
+  background-position: 17px;
+  background-repeat: no-repeat;
 }
 .bookmark a:hover{
   background-image: url(img/bookmark-icon2.png);
@@ -728,6 +741,32 @@
   background-position: 17px;
   background-repeat: no-repeat;
 }
+.log-in:hover{
+  padding: 10px 20px 10px 40px;
+  background-image: url(img/login-icon2.png);
+  background-position: 14px;
+  background-repeat: no-repeat;
+  color: #ee3643;
+}
+.log-in:active{
+  background-image: url(img/login-icon.png);
+  background-position: 14px;
+  background-repeat: no-repeat;
+  color:#c5c5c5;
+}
+.reg:hover{
+  color: #ee3643;
+}
+.reg:active{
+  color:#c5c5c5;
+}
+.ctg-user p:hover{
+  background-image: url(img/logout-icon2.png);
+  background-position: 268px 14px;
+  background-repeat: no-repeat;
+}
+
+
 /*  ----------------------------   */
 .items{
   display: grid;
