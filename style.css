@@ -1023,15 +1023,16 @@
   font-weight: 700;
   font-size: 18px;
   line-height: calc(20/18);
-  width: 154px;
+  width: 182px;
   margin: 0 auto;
   text-align: center;
-  padding: 55px 0 18px 0;
+  padding: 90px 0 18px 0;
 }
 .catalog-item span{
   color:#aaaaaa;
   text-decoration: line-through;
   font-weight: 400;
+  padding: 0 0 0 80px;
 }
 .catalog-item{
   height: 318px;
@@ -1044,20 +1045,21 @@
 .catalog-item button{
   position: relative;
   border: none;
-  width: 136px;
-  height: 35px;
+  width: 125px;
+  height: 38px;
   background-color: #ee3643;
-  border-radius: 4px;
+  border-radius: 3px;
   color: #ffffff;
+  margin: 5px 0 0 42px;
 }
 .catalog-item button:after{
   content: "";
   position: absolute;
-  border-left: 24px solid transparent;
-  border-right: 24px solid #ee3643;
-  border-bottom: 24px solid transparent;
+  border-left: 26px solid transparent;
+  border-right: 26px solid #ee3643;
+  border-bottom: 26px solid transparent;
   top: -3px;
-  left: 102px;
+  left: 89px;
   transform: rotate(45deg);
 }
 .popular{
@@ -1070,7 +1072,15 @@
   margin-top: 21px;
   border: 1px solid #f9f5f0;
   background: #f9f5f0;
-  padding: 10px;
+  padding: 30px;
+}
+.pop p{
+  margin: 5px 0 0 -4px;
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #32425c;
+  align-self: center;
 }
 .pop a{
   border: 1px solid #ee3643;
@@ -1078,7 +1088,7 @@
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 9px 70px;
+  padding: 10px 70px;
   border-radius: 3px;
   font-size: 14px;
 }
@@ -1098,25 +1108,25 @@
    padding: 52px 45px 53px 46px;
 }
 .brands a:nth-child(2){
-  padding: 52px 45px 53px 46px;
+  padding: 50px 45px 53px 46px;
 }
 .brands a:nth-child(3){
-  padding: 50px 37px 50px 37px;
+  padding: 44px 37px 50px 37px;
 }
 .brands a:nth-child(4){
-  padding: 30px 12px 30px 11px;
+  padding: 10px 12px 30px 11px;
 }
 .brands a:nth-child(5){
-  padding: 56px 26px 55px 26px;
+  padding: 53px 26px 55px 26px;
 }
 .brands a:nth-child(6){
-  padding: 36px 49px 37px 49px;
+  padding: 30px 49px 37px 49px;
 }
 .brands a:nth-child(7){
-  padding: 24px 34px 24px 34px;
+  padding: 15px 34px 24px 34px;
 }
 .brands a:nth-child(8){
-  padding: 37px 8px 38px 8px;
+  padding: 24px 8px 38px 8px;
 }
 .services{
   width: 940px;
@@ -1166,25 +1176,26 @@
   text-decoration: none;
 }
   /* стрелочки ^___^ */
-.arrow::before {
+.arrow:before{
+  content: "";
   position: absolute;
-  content: " ";
-  width: 0;
-  height: 0;
-  left: -12px;
-  border-top: 7px solid transparent;
-  border-left: 9px solid #c1c6ce;
-  border-bottom: 7px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #c1c6c1;
+  border-bottom: 10px solid transparent;
+  top: 0px;
+  left: -25px;
+  transform: rotate(45deg);
+    
 }
-.arrow::after {
+.arrow:after{
+  content: "";
   position: absolute;
-  content: " ";
-  width: 0;
-  height: 0;
-  left: -14px;
-  border-top: 7px solid transparent;
-  border-left: 7px solid white;
-  border-bottom: 8px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  top: 0px;
+  left: -28px;
+  transform: rotate(45deg);
 }
 .filter{
   display: flex;
