@@ -58,8 +58,8 @@
             <main class="catalog-tech">
                 <nav>
                 <div class="bread-crumbs">
+                        <a href="index.html" class="home"></a>
                     <ul>
-                        <li><a href=""><img src="img/home-icon.png"></a></li>
                         <li class="arrow"><a href=""></a></li>
                         <li><a href="">Каталог</a></li>
                         <li class="arrow"><a href=""></a></li>
@@ -68,149 +68,157 @@
                         <li><a href="">Перфораторы</a></li>
                     </ul>
                </div>
-               <h1>Перфораторы</h1>
-                <div class="filter">
-                    <h4>Фильтр:</h4>
-                    <aside class="the-price">
-                        <form action="" method="get">
-                            <h3>Цена:</h3>
-                            <label for="peice"></label>
-                            <input type="range" min="0" max="30000" id="price">
-                            <div class="begin">
-                                <label for="0"></label>
-                                <input type="text" name="start" id="start" placeholder="0">
-                             </div>
-                            <div class="finish">
-                                <label for="30000">-</label>
-                                <input type="text" name="end" id="end" placeholder="30000">
-                            </div>
-                       </form>
-                   </aside>
-                   <aside class="marks">
-                       <form action="" method="get">
-                           <h3>Производители:</h3>
-                             <div class="ch-group">
-                                <div class="ch-gr">
-                                   <input type="checkbox" id="ch1" checked>
-                                    <label for="ch1">Bosch</label>
-                                </div>
-                                <div class="ch-gr">
-                                    <input type="checkbox" id="ch2">
-                                    <label for="ch2">Интерскол</label>
-                                </div>
-                                <div class="ch-gr">
-                                    <input type="checkbox" id="ch3" checked>
-                                    <label for="ch3">Makita</label>
-                                </div>
-                                <div class="ch-gr">
-                                    <input type="checkbox" id="ch4">
-                                    <label for="ch4">Dewalt</label>
-                                </div>
-                                <div class="ch-gr">
-                                    <input type="checkbox" id="ch5">
-                                    <label for="ch5">Hitachi</label>
+                <div class="ctg-title">
+                    <h1>Перфораторы</h1>
+                </div>
+                <div class="contain">
+                     <div class="filter">
+                         <p>Фильтр:</p>
+                        <aside class="the-price">
+                            <form action="" method="get">
+                               <h3>Цена:</h3>
+                               <label for="peice"></label>
+                               <input type="range" min="0" max="30000" id="price">
+                                <div class="begin">
+                                   <label for="0"></label>
+                                   <input type="text" name="start" id="start" placeholder="0">
                                </div>
-                           </div>
-                       </form>
-                   </aside>
-                   <aside class="battery">
-                       <form action="" method="get">
-                           <h3>Питание:</h3>
-                           <div class="ch-group">
-                                <div class="ch-radio">
-                                   <input type="radio" name="check-radio" id="radio1">
-                                   <label for="radio1">Аккумуляторные</label>
+                                <div class="finish">
+                                   <label for="30000">-</label>
+                                   <input type="text" name="end" id="end" placeholder="30000">
                                 </div>
-                                <div class="ch-radio">
-                                    <input type="radio" name="check-radio" id="radio2">
-                                    <label for="radio2">Сетевые</label>
-                                </div>
-                           </div>
-                       </form>
-                   </aside>
-                   <button class="show">Показать</button>
-               </div>
-               <div class="ctg catalog-items">
-                    <div class="sort">
-                       <h3>Сортировка:</h3>
-                       <button class="price">По цене</button>
-                       <button class="type">По типу</button>
-                       <button class="fun">По функционалу</button>
-                       <button class="up"><img src="img/up.png"></button>
-                       <button class="down"><img src="img/down.png"></button>
-                    </div>
-                     <div class="ctg-item catalog-item">
-                         <img src="img/ct-it1.jpg">
+                           </form>
+                       </aside>
+                       <aside class="marks">
+                             <form action="" method="get">
+                                 <h3>Производители:</h3>
+                                 <div class="ch-group">
+                                        <div class="ch-gr">
+                                           <input type="checkbox" id="ch1" checked>
+                                           <label for="ch1">Bosch</label>
+                                        </div>
+                                        <div class="ch-gr">
+                                           <input type="checkbox" id="ch2">
+                                           <label for="ch2">Интерскол</label>
+                                       </div>
+                                        <div class="ch-gr">
+                                            <input type="checkbox" id="ch3" checked>
+                                            <label for="ch3">Makita</label>
+                                        </div>
+                                        <div class="ch-gr">
+                                           <input type="checkbox" id="ch4">
+                                           <label for="ch4">Dewalt</label>
+                                        </div>
+                                        <div class="ch-gr">
+                                           <input type="checkbox" id="ch5">
+                                           <label for="ch5">Hitachi</label>
+                                       </div>
+                                  </div>
+                               </form>
+                       </aside>
+                       <aside class="battery">
+                              <form action="" method="get">
+                                 <h3>Питание:</h3>
+                                 <div class="ch-group">
+                                        <div class="ch-radio">
+                                           <input type="radio" name="check-radio" id="radio1">
+                                           <label for="radio1">Аккумуляторные</label>
+                                       </div>
+                                        <div class="ch-radio">
+                                            <input type="radio" name="check-radio" id="radio2">
+                                            <label for="radio2">Сетевые</label>
+                                       </div>
+                                 </div>
+                              </form>
+                       </aside>
+                       <button class="show">Показать</button>
+                   </div>
+                   <div class="ctg catalog-items">
+                        <div class="sort">
+                           <p>Сортировка:</p>
+                           <button class="price">По цене</button>
+                           <button class="type">По типу</button>
+                           <button class="fun">По функционалу</button>
+                           <button class="up"><img src="img/up.png"></button>
+                           <button class="down"><img src="img/down.png"></button>
+                        </div>
+                        <div class="ctg-item catalog-item">
+                           <img src="img/ct-it1.jpg">
+                           <p>Перфоратор BOSCH BFG 3000</p>
+                           <span class="item-price">22500 P.</span>
+                           <button class="cost">15500 P.</button>
+                        </div>
+                        <div class="ctg-item catalog-item">
+                            <img src="img/ct-it2.jpg">
+                                <div class="descr">
+                                    <p>Перфоратор BOSCH BFG 6000</p>
+                                    <span class="item-price">30500 P.</span>
+                               </div>
+                               <button class="cost">25500 P.</button>
+                        </div>
+                        <div class="ctg-item catalog-item">
+                            <div class="new-ctg">
+                                 <span class="newnew">new</span>
+                            </div>
+                            <button class="buy"><img src="img/basket-icon.png">Купить</button>
+                            <button class="bookmarks">В закладки</button>
+                             <div class="descr">
+                                <p>Перфоратор BOSCH BFG 2000</p>
+                            </div>
+                                <button class="cost">12500 P.</button>
+                        </div>
+                        <div class="ctg-item catalog-item">
+                              <img src="img/ct-it3.jpg">
                             <div class="descr">
                                 <p>Перфоратор BOSCH BFG 3000</p>
-                                <span>22500 P.</span>
-                           </div>
-                        <button class="cost">15500 P.</button>
-                    </div>
-                    <div class="ctg-item catalog-item">
-                        <img src="img/ct-it2.jpg">
-                            <div class="descr">
-                                <p>Перфоратор BOSCH BFG 6000</p>
-                                <span>30500 P.</span>
+                                <span class="item-price">22500 P.</span>
                             </div>
-                        <button class="cost">25500 P.</button>
-                   </div>
-                   <div class="ctg-item catalog-item">
-                        <div class="new"></div>
-                        <button class="buy"><img src="img/basket-icon.png">Купить</button>
-                        <button class="bookmarks">В закладки</button>
+                            <button class="cost">15500 P.</button>
+                        </div>
+                        <div class="ctg-item catalog-item">
+                              <img src="img/ct-it4.jpg">
+                              <div class="new-ctg">
+                                    <span class="newnew">new</span>
+                               </div>
+                            <div class="descr">
+                                 <p>Перфоратор BOSCH BFG 6000</p>
+                                 <span class="item-price">30500 P.</span>
+                            </div>
+                            <button class="cost">25500 P.</button>
+                       </div>
+                       <div class="ctg-item catalog-item">
+                            <img src="img/ct-it5.jpg">
                             <div class="descr">
                                 <p>Перфоратор BOSCH BFG 2000</p>
                             </div>
-                        <button class="cost">12500 P.</button>
-                   </div>
-                   <div class="ctg-item catalog-item">
-                        <img src="img/ct-it3.jpg">
+                             <button class="cost">12500 P.</button>
+                        </div>
+                        <div class="ctg-item catalog-item">
+                             <img src="img/ct-it6.jpg">
+                             <div class="new-ctg">
+                                <span class="newnew">new</span>
+                           </div>
                             <div class="descr">
-                                <p>Перфоратор BOSCH BFG 3000</p>
-                                <span>22500 P.</span>
-                            </div>
-                        <button class="cost">15500 P.</button>
-                   </div>
-                   <div class="ctg-item catalog-item">
-                        <img src="img/ct-it4.jpg">
-                         <div class="new"></div>
-                            <div class="descr">
-                                <p>Перфоратор BOSCH BFG 6000</p>
-                                <span>30500 P.</span>
-                            </div>
-                        <button class="cost">25500 P.</button>
-                   </div>
-                   <div class="ctg-item catalog-item">
-                        <img src="img/ct-it5.jpg">
-                            <div class="descr">
-                                <p>Перфоратор BOSCH BFG 2000</p>
-                            </div>
-                        <button class="cost">12500 P.</button>
-                   </div>
-                   <div class="ctg-item catalog-item">
-                        <img src="img/ct-it6.jpg">
-                         <div class="new"></div>
-                           <div class="descr">
                                <p>Перфоратор BOSCH BFG 3000</p>
-                               <span>22500 P.</span>
-                          </div>
-                       <button class="cost">15500 P.</button>
-                   </div>
-                   <div class="ctg-item catalog-item">
-                        <img src="img/ct-it7.jpg">
+                               <span class="item-price">22500 P.</span>
+                            </div>
+                            <button class="cost">15500 P.</button>
+                       </div>
+                        <div class="ctg-item catalog-item">
+                            <img src="img/ct-it7.jpg">
                             <div class="descr">
                                 <p>Перфоратор BOSCH BFG 6000</p>
-                                <span>30500 P.</span>
+                                <span class="item-price">30500 P.</span>
                             </div>
-                        <button class="cost">25500 P.</button>
-                   </div>
-                   <div class="ctg-item catalog-item">
-                        <img src="img/ct-it8.jpg">
+                            <button class="cost">25500 P.</button>
+                        </div>
+                        <div class="ctg-item catalog-item">
+                            <img src="img/ct-it8.jpg">
                             <div class="descr">
                                 <p>Перфоратор BOSCH BFG 2000</p>
                             </div>
-                        <button class="cost">12500 P.</button>
+                            <button class="cost">12500 P.</button>
+                       </div>
                    </div>
                </div>
                <div class="pagination">

@@ -832,13 +832,13 @@
 .new{
   position: absolute;
   content: "";
-  width: 65px;
-  height: 20px;
+  width: 100px;
+  height: 25px;
   border: 1px solid #ff5357;
   border-left: transparent;
   background-color: #ff5357;
-  top: 3%;
-  left: 84%;
+  top: 5%;
+  left: 76%;
   transform: rotate(45deg); 
   color: #ffffff;
   text-align: center;
@@ -1053,9 +1053,10 @@
 .catalog-item{
   height: 318px;
   width: 220px;
-  border: 1px solid #f9f5f0;
+  border: 1px solid #e5e5e5;
   position: relative;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .catalog-item img{
   transform: translate(25px, 40px);
@@ -1083,13 +1084,13 @@
 .new-item{
   position: absolute;
   content: "";
-  width: 65px;
-  height: 20px;
+  width: 100px;
+  height: 25px;
   border: 1px solid #ff5357;
   border-left: transparent;
   background-color: #ff5357;
-  top: 1%;
-  left: 78%;
+  top: 2%;
+  left: 68%;
   transform: rotate(45deg); 
   color: #ffffff;
   text-align: center;
@@ -1134,50 +1135,31 @@
   margin-top: 21px;
 }
 .brands a{
-  border: 1px solid #f9f5f0;
+  border: 1px solid #e5e5e5;
 }
 .brands a:nth-child(1){
-   padding: 52px 45px 53px 46px;
+   padding: 53px 46px 54px 47px;
 }
 .brands a:nth-child(2){
-  padding: 50px 45px 53px 46px;
+  padding: 50px 47px 54px 48px;
 }
 .brands a:nth-child(3){
-  padding: 44px 37px 50px 37px;
+  padding: 48px 37px 52px 37px;
 }
 .brands a:nth-child(4){
-  padding: 10px 12px 30px 11px;
+  padding: 24px 10px 32px 10px;
 }
 .brands a:nth-child(5){
-  padding: 53px 26px 55px 26px;
+  padding: 56px 24px 57px 26px;
 }
 .brands a:nth-child(6){
-  padding: 30px 49px 37px 49px;
+  padding: 33px 49px 38px 49px;
 }
 .brands a:nth-child(7){
-  padding: 15px 34px 24px 34px;
+  padding: 24px 34px 24px 34px;
 }
 .brands a:nth-child(8){
-  padding: 24px 8px 38px 8px;
-}
-.services{
-  width: 940px;
-  margin: 0 auto;
-}
-.delievery{
-  background-image: url(img/car.png);
-  background-position: 273px 261px;
-  background-repeat: no-repeat;
-}
-.guarantee{
-  background-image: url(img/medal.png);
-  background-position: 273px 261px;
-  background-repeat: no-repeat;
-}
-.credit{
-  background-image: url(img/money.png);
-  background-position: 273px 261px;
-  background-repeat: no-repeat;
+  padding: 37px 7px 38px 8px;
 }
 .info{
   width: 940px;
@@ -1189,52 +1171,163 @@
 }
 .bread-crumbs ul{
   display: inline-block;
-  width: 360px;
-  padding: 0;
-  margin-left: -20px;
+  padding: 0px;
 }
 .bread-crumbs li{
   position: relative;
   list-style: none;
   float: left;
-  margin-left: 19px;
+  padding: 0px 20px 1px 0px;
 }
 .bread-crumbs a{
   font-family: pt-sans, sans-serif;
   font-size: 13;
   line-height: calc(18/13);
-  color: black;
+  color: #000;
   text-transform: uppercase;
   text-decoration: none;
+}
+.home{
+  background-image: url(img/home-icon.png);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  padding: 45px 30px 0 0px;
 }
   /* стрелочки ^___^ */
 .arrow:before{
   content: "";
   position: absolute;
-  border-left: 10px solid transparent;
-  border-right: 10px solid #c1c6c1;
-  border-bottom: 10px solid transparent;
+  border-left: 9px solid transparent;
+  border-right: 9px solid #c1c6c1;
+  border-bottom: 9px solid transparent;
   top: 0px;
-  left: -25px;
+  left: -11px;
   transform: rotate(45deg);
     
 }
 .arrow:after{
   content: "";
   position: absolute;
-  border-left: 10px solid transparent;
-  border-right: 10px solid #ffffff;
-  border-bottom: 10px solid transparent;
+  border-left: 9px solid transparent;
+  border-right: 9px solid #ffffff;
+  border-bottom: 9px solid transparent;
   top: 0px;
-  left: -28px;
+  left: -13px;
   transform: rotate(45deg);
 }
+.contain{
+  display: flex;
+}
+.ctg-title{
+  width: 940px;
+  height: 89px;
+  border: 1px solid #f2f6f8;
+  background-color: #f2f6f8;
+}
+.ctg-title h1{
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400px;
+  color: #32425c;
+  margin: 33px 30px;
+}
 .filter{
+  font-family: 'pt-sans', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  width: 220px;
+}
+.filter p{
+  font-size: 13px;
+  line-height: calc(18/13);
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 28px;
+  padding-top: 10px;
+  background-color: #f7f3ec;
+  padding-left: 19px;
+  margin-top: 20px;
+}
+.filter h3{
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.ch-group label{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.ch-radio{
+  padding: 20px;
+}
+.ch-radio label{
+  font-size: 14px;
+  line-height: calc(20/14);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.ch-gr{
+  padding: 20px;
+}
+.sort{
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 700px;
+  height: 28px;
+  padding-top: 10px;
+  font-family: 'pt-sans', sans-serif;
+  background-color: #f7f3ec;
+}
+.sort p{
+  float: left;
+  padding: 0;
+  text-align: left;
+  font-size: 13px;
+  line-height: calc(18/13);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 19px;
 }
 
+.sort button{
+  padding-left: 36px;
+  border: none;
+  font-size: 13px;
+  line-height: calc(18/13);
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #c5c5c5;
+  background-color: #f7f3ec; 
+}
+button.price{
+  color: #ee3643;
+}
+.ctg{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0 0 0 20px;
+}
+.new-ctg{
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 25px;
+  border: 1px solid #ee3643;
+  border-left: transparent;
+  background-color: #ee3643;
+  top: 2%;
+  left: 68%;
+  transform: rotate(45deg); 
+  color: #ffffff;
+  text-align: center;
+}
 footer{
   width: 1200px;
   margin: 0 auto;
@@ -1255,22 +1348,123 @@ footer{
   display: block;
   height: 100%;
   background-image: url(img/car.png);
-  background-position: 273px 261px;
+  background-position: 200px 0;
   background-repeat: no-repeat;
 }
 #sv-btn2:checked ~ .slides-options .slide-option:nth-child(2){
   display: block;
   height: 100%;
   background-image: url(img/medal.png);
-  background-position: 273px 261px;
+  background-position: 200px 0;
   background-repeat: no-repeat;
 }
 #sv-btn3:checked ~ .slides-options .slide-option:nth-child(3){
   display: block;
   height: 100%;
   background-image: url(img/money.png);
-  background-position: 273px 261px;
+  background-position: 200px 0;
   background-repeat: no-repeat;
 }
+.services{
+  width: 1200px;
+  height: 523px;
+  padding-left: 250px;
+  background-color: #f4f7f9;
+  margin-top: 165px;
+}
+.delievery{
+  background-image: url(img/car.png);
+  background-position: 200px 0;
+  background-repeat: no-repeat;
+}
+.guarantee{
+  background-image: url(img/medal.png);
+  background-position: 200px 0;
+  background-repeat: no-repeat;
+}
+.credit{
+  background-image: url(img/money.png);
+  background-position: 200px 0;
+  background-repeat: no-repeat;
+}
+.slide-option:nth-child(1) article{
+  width: 268px;
+}
+.slide-option:nth-child(2) article{
+  width: 339px;
+}
+.slide-option:nth-child(3) article{
+  width: 276px;
+}
+.slides-options{
+  width: 700px;
+  position: relative;
+  left: 320px;
+  top: -197px;
+}
+.slides-options h2{
+  font-size: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+}
+.slides-options article{
+  font-size: 14px;
+  line-height: calc(18/14);
+}
+.features{
+  width: 400px;
+}
+.features h2{
+  font-size: 27px;
+}
+.features p{
+  font-size: 14px;
+  line-height: calc(18/14);
+}
+.slider-sv-btn{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin-top: 50px;
+}
+.slider-sv-btn input{
+  display: none;
+}
+.slider-sv-btn label{
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 240px;
+  height: 62px;
+}
+.slider-sv-btn label:before{
+  position: absolute;
+  content: "";
+  width: 240px;
+  height: 62px;
+  top: 0px;
+  left: 0%;
+  border: 1px solid #4d637b;
+  background-color: #32425c;
+  color: #ffffff;
+}
+.slider-sv-btn input:checked + label:after{
+  position: absolute;
+  content: " ";
+  width: 240px;
+  height: 62px;
+  top: 0px;
+  left: 0%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #32425c;
+}
+.slider-sv-btn p{
+  position: absolute;
+  color: #ffffff;
+  font-size: 21px;
+}
+
+
 /* ---_________---- */
 
