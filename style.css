@@ -494,7 +494,8 @@
 }
 .logo-tech h1 {
   font-size: 24px;
-  line-height: calc(24/24);
+  line-height: 1;
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
   margin: 0;
@@ -1207,12 +1208,13 @@
   display: flex;
   justify-content: space-between;
   width: 940px;
-  height: 536px;
+  height: 470px;
   margin: 82px 0 0 250px;
 }
 .about h2{
   font-size: 30px;
   line-height: calc(24/30);
+  font-weight: 400;
   text-transform: uppercase;
 }
 .about p{
@@ -1231,7 +1233,7 @@
   background-color: #ee3643;
   border-radius: 3px;
   color: #ffffff;
-  padding: 14px 42px;
+  padding: 12px 42px;
   margin-top: 37px;
 }
 .about ul{
@@ -1260,12 +1262,30 @@
   border: 1px solid #ee3643;
   background-color: #ee3643;
 }
+.contacts h2{
+  font-size: 30px;
+  line-height: calc(24/30);
+  font-weight: 400;
+  text-transform: uppercase;
+}
 .contacts p{
   font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
   line-height: calc(24/14);
   width: 177px;
-  
+}
+.contacts button{
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: calc(18/14);
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #ee3643;
+  background-color: #ee3643;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 12px 64px;
+  margin-top: 25px;
 }
 .catalog-tech{
   width: 940;
@@ -1395,7 +1415,6 @@
   text-transform: uppercase;
   padding-left: 19px;
 }
-
 .sort button{
   padding-left: 36px;
   border: none;
@@ -1532,45 +1551,45 @@ footer{
 }
 #sv-btn1:checked ~ .slides-options .slide-option:nth-child(1){
   display: block;
-  height: 70%;
+  height: 100%;
   background-image: url(img/car.png);
-  background-position: 200px 0;
+  background-position: 150px 15px;
   background-repeat: no-repeat;
 }
 #sv-btn2:checked ~ .slides-options .slide-option:nth-child(2){
   display: block;
-  height: 70%;
+  height: 100%;
   background-image: url(img/medal.png);
-  background-position: 200px 0;
+  background-position: 150px 15px;
   background-repeat: no-repeat;
 }
 #sv-btn3:checked ~ .slides-options .slide-option:nth-child(3){
   display: block;
-  height: 70%;
+  height: 100%;
   background-image: url(img/money.png);
-  background-position: 200px 0;
+  background-position: 150px 15px;
   background-repeat: no-repeat;
 }
 .services{
   width: 1200px;
   height: 523px;
-  padding-left: 250px;
+  padding: 50px 0 0 250px;
   background-color: #f4f7f9;
-  margin-top: 165px;
+  margin-top: 70px;
 }
 .delievery{
   background-image: url(img/car.png);
-  background-position: 200px 0;
+  background-position: 150px 15px;
   background-repeat: no-repeat;
 }
 .guarantee{
   background-image: url(img/medal.png);
-  background-position: 200px 0;
+  background-position: 150px 15px;
   background-repeat: no-repeat;
 }
 .credit{
   background-image: url(img/money.png);
-  background-position: 200px 0;
+  background-position: 150px 15px;
   background-repeat: no-repeat;
 }
 .slide-option:nth-child(1) article{
@@ -1580,40 +1599,61 @@ footer{
   width: 339px;
 }
 .slide-option:nth-child(3) article{
-  width: 276px;
+  width: 300px;
+}
+.slider-service{
+  position: absolute;
+  margin-top: 73px;
 }
 .slides-options{
   width: 700px;
-  height: 380px;
+  height: 280px;
   position: relative;
   left: 320px;
-  top: -197px;
+  top: -45px;
 }
 .slides-options h2{
-  font-size: 30px;
+  font-size: 38px;
+  line-height: calc(24/38);
+  font-weight: 400;
   color: #32425c;
   text-transform: uppercase;
 }
 .slides-options article{
   font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
+  line-height: calc(30/14);
+}
+.slide-option button{
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
   line-height: calc(18/14);
+  border: 1px solid #ff5357;
+  background-color: #ff5357;
+  color: #ffffff;
+  padding: 12px 45px;
+  text-transform: uppercase;
+  margin-top: 31px;
+}
+.features{
+  width: 428px;
 }
 .features h2{
-  font-size: 27px;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 .features p{
   font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
-  line-height: calc(18/14);
+  line-height: calc(24/14);
   width: 428px;
 }
 .slider-sv-btn{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+  position: relative;
   width: 240px;
-  margin-top: 50px;
+  height: 182px;
 }
 .slider-sv-btn input{
   display: none;
