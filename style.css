@@ -1351,6 +1351,9 @@ button.price{
 .catalog-item:hover .cost{
   margin-top: 20px;
 }
+.catalog-item:hover .cost-in{
+  margin-top: 40px;
+}
 /* --------------------------------- */
 .buy{
   background-image: url(img/basket-icon.png);
