@@ -1365,23 +1365,6 @@ button.price{
   color: #ffffff;
   margin: 44px 0 0 42px;
 }
-.buy:hover{
-  background-image: url(img/basket-icon.png);
-  background-position: 17px;
-  background-repeat: no-repeat;
-  font-family: 'cuprum', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: calc(18/14);
-  text-transform: uppercase;
-  border: 1px solid #63a63e;
-  border-bottom: 3px solid #367315;
-  background-color: #63a63e;
-  padding: 14px 49px;
-  border-radius: 2px;
-  color: #ffffff;
-  margin: 44px 0 0 42px;
-}
 .bookmarks{
   font-family: 'cuprum', sans-serif;
   font-size: 14px;
