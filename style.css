@@ -1335,19 +1335,23 @@ button.price{
   align-items: flex-start;
   margin: 0 0 0 20px;
 }
+/* при наведении на карточку товара */
 .more-detail{
   display: none;
 }
 .catalog-item:hover img{
   display: none;
 }
-.more-detail:hover{
-  display: block;
-  position: relative;
-}
-.catalog-item:hover ~ .catalog-item > .more-detail:hover{ 
+.catalog-item:hover .more-detail{
   display: block;
 }
+.catalog-item:hover p{
+  padding: 25px 0 0 0;
+}
+.catalog-item:hover .cost{
+  margin-top: 20px;
+}
+/* --------------------------------- */
 .buy{
   background-image: url(img/basket-icon.png);
   background-position: 17px;
