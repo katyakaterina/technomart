@@ -800,6 +800,7 @@
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
 
 }
+
 /*  ----------------------------   */
 .items{
   display: grid;
@@ -1373,6 +1374,30 @@ button.price{
 }
 .cost-in{
   margin-top: 20px;
+}
+.pagination{
+  margin-top: 52px;
+  margin-left: 235px;
+}
+.pagination a{
+  border: 1px solid #e5e5e5;
+  padding: 14px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: 'pt-sans', sans-serif;
+  font-size: 13px;
+  line-height: calc(18/13);
+  text-transform: uppercase; 
+  color: #000;
+  margin-left: 5px;
+}
+a.one{
+  border: 1px solid #ee3643;
+  padding: 14px 20px;
+  background-color: #ee3643;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #ffffff;
 }
 .new-ctg{
   position: absolute;
