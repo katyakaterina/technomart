@@ -1069,6 +1069,7 @@
   padding: 0 0 0 80px;
 }
 .catalog-item{
+  font-family: 'Pt Sans', sans-serif;
   height: 318px;
   width: 220px;
   border: 1px solid #e5e5e5;
@@ -1080,6 +1081,7 @@
   transform: translate(25px, 40px);
 }
 .cost{
+  font-family: 'Pt Sans', sans-serif;
   position: relative;
   border: none;
   width: 125px;
