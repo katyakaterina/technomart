@@ -1188,17 +1188,17 @@
   display: flex;
   justify-content: space-between;
   width: 940px;
-  margin: 0 auto;
+  margin: 82px 0 0 250px;
 }
 .about h2{
   font-size: 30px;
-  line-height: calc(18/30);
+  line-height: calc(24/30);
   text-transform: uppercase;
 }
 .about p{
   font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
-  line-height: calc(18/14);
+  line-height: calc(24/14);
   width: 563px;
   font-size: 14px;
 }
@@ -1208,7 +1208,7 @@
 .about ul p{
   font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
-  line-height: calc(18/14);
+  line-height: calc(24/14);
   width: 475px;
 }
 .about li{
@@ -1226,7 +1226,13 @@
   height: 1px;
   border: 1px solid #ee3643;
   background-color: #ee3643;
-
+}
+.contacts p{
+  font-family: 'Pt Sans', sans-serif;
+  font-size: 14px;
+  line-height: calc(24/14);
+  width: 177px;
+  
 }
 .catalog-tech{
   width: 940;
@@ -1535,7 +1541,7 @@ footer{
   background-repeat: no-repeat;
 }
 .slide-option:nth-child(1) article{
-  width: 268px;
+  width: 295px;
 }
 .slide-option:nth-child(2) article{
   width: 339px;
@@ -1555,18 +1561,18 @@ footer{
   text-transform: uppercase;
 }
 .slides-options article{
+  font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
   line-height: calc(18/14);
-}
-.features{
-  width: 400px;
 }
 .features h2{
   font-size: 27px;
 }
 .features p{
+  font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
   line-height: calc(18/14);
+  width: 428px;
 }
 .slider-sv-btn{
   display: flex;
