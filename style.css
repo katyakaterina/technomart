@@ -798,9 +798,28 @@
 }
 .catalog-item:hover{
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
-
 }
-
+.pop-goods a:hover{
+  background-color: #ca2c37;
+}
+.pop-goods a:active{
+  background-color: #ba2732;
+}
+.pop a:hover{
+  background-color: #ca2c37;
+}
+.pop a:active{
+  background-color: #ca2c37;
+}
+.about a:hover{
+  background-color: #ca2c37;
+}
+.about a:active{
+  background-color: #ca2c37;
+}
+#sv-btn1:hover{
+  background-color: #293449;
+}
 /*  ----------------------------   */
 .items{
   display: grid;
@@ -1188,6 +1207,7 @@
   display: flex;
   justify-content: space-between;
   width: 940px;
+  height: 536px;
   margin: 82px 0 0 250px;
 }
 .about h2{
@@ -1202,8 +1222,21 @@
   width: 563px;
   font-size: 14px;
 }
+.about a{
+  font-size: 14px;
+  line-height: calc(18/14);
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #ee3643;
+  background-color: #ee3643;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 14px 42px;
+  margin-top: 37px;
+}
 .about ul{
   padding: 0;
+  margin-bottom: 37px;
 }
 .about ul p{
   font-family: 'Pt Sans', sans-serif;
@@ -1551,6 +1584,7 @@ footer{
 }
 .slides-options{
   width: 700px;
+  height: 380px;
   position: relative;
   left: 320px;
   top: -197px;
@@ -1577,6 +1611,7 @@ footer{
 .slider-sv-btn{
   display: flex;
   flex-direction: column;
+  position: absolute;
   width: 240px;
   margin-top: 50px;
 }
