@@ -1284,7 +1284,7 @@
   border-radius: 3px;
   color: #ffffff;
   padding: 10px 60px;
-  margin: 40px 0 0 10px;
+  margin-top: 40px;
 }
 .catalog-tech{
   width: 940;
@@ -1540,7 +1540,7 @@ footer{
 #map{
   width: 300px;
   height: 158px;
-  margin: 32px 0 0 7px;
+  margin-top: 32px;
 }
 .bigmap{
   display: none;
