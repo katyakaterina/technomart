@@ -1209,7 +1209,7 @@
   justify-content: space-between;
   width: 940px;
   height: 470px;
-  margin: 82px 0 0 250px;
+  margin: 68px 0 0 250px;
 }
 .about h2{
   font-size: 30px;
@@ -1233,12 +1233,11 @@
   background-color: #ee3643;
   border-radius: 3px;
   color: #ffffff;
-  padding: 12px 42px;
-  margin-top: 37px;
+  padding: 10px 40px;
 }
 .about ul{
   padding: 0;
-  margin-bottom: 37px;
+  margin: 28px 0 43px 0;
 }
 .about ul p{
   font-family: 'Pt Sans', sans-serif;
@@ -1249,7 +1248,7 @@
 .about li{
   position: relative;
   list-style: none;
-  line-height: calc(28/14);
+  line-height: calc(32/14);
   padding-left: 42px;
 }
 .about li:before{
@@ -1272,7 +1271,7 @@
   font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
   line-height: calc(24/14);
-  width: 177px;
+  width: 195px;
 }
 .contacts button{
   font-family: 'Cuprum', sans-serif;
@@ -1284,8 +1283,8 @@
   background-color: #ee3643;
   border-radius: 3px;
   color: #ffffff;
-  padding: 12px 64px;
-  margin-top: 25px;
+  padding: 10px 60px;
+  margin: 40px 0 0 10px;
 }
 .catalog-tech{
   width: 940;
@@ -1541,6 +1540,7 @@ footer{
 #map{
   width: 300px;
   height: 158px;
+  margin: 32px 0 0 7px;
 }
 .bigmap{
   display: none;
@@ -1553,43 +1553,43 @@ footer{
   display: block;
   height: 100%;
   background-image: url(img/car.png);
-  background-position: 150px 15px;
+  background-position: 150px 25px;
   background-repeat: no-repeat;
 }
 #sv-btn2:checked ~ .slides-options .slide-option:nth-child(2){
   display: block;
   height: 100%;
   background-image: url(img/medal.png);
-  background-position: 150px 15px;
+  background-position: 150px 25px;
   background-repeat: no-repeat;
 }
 #sv-btn3:checked ~ .slides-options .slide-option:nth-child(3){
   display: block;
   height: 100%;
   background-image: url(img/money.png);
-  background-position: 150px 15px;
+  background-position: 150px 25px;
   background-repeat: no-repeat;
 }
 .services{
+  display: block;
   width: 1200px;
   height: 523px;
-  padding: 50px 0 0 250px;
+  margin: 70 0 0 130px;
   background-color: #f4f7f9;
-  margin-top: 70px;
 }
 .delievery{
   background-image: url(img/car.png);
-  background-position: 150px 15px;
+  background-position: 150px 25px;
   background-repeat: no-repeat;
 }
 .guarantee{
   background-image: url(img/medal.png);
-  background-position: 150px 15px;
+  background-position: 150px 25px;
   background-repeat: no-repeat;
 }
 .credit{
   background-image: url(img/money.png);
-  background-position: 150px 15px;
+  background-position: 150px 25px;
   background-repeat: no-repeat;
 }
 .slide-option:nth-child(1) article{
@@ -1602,27 +1602,28 @@ footer{
   width: 300px;
 }
 .slider-service{
-  position: absolute;
-  margin-top: 73px;
+  width: 940px;
+  height: 276px;
+  margin: 0 0 0 120px;
 }
 .slides-options{
-  width: 700px;
-  height: 280px;
-  position: relative;
-  left: 320px;
-  top: -45px;
+  display: block;
+  width: 650px;
+  height: 276px;
+  padding-left: 320px;
 }
 .slides-options h2{
-  font-size: 38px;
-  line-height: calc(24/38);
+  font-size: 36px;
+  line-height: 1;
   font-weight: 400;
   color: #32425c;
   text-transform: uppercase;
+  margin-top: 68px;
 }
 .slides-options article{
   font-family: 'Pt Sans', sans-serif;
   font-size: 14px;
-  line-height: calc(30/14);
+  line-height: calc(22/14);
 }
 .slide-option button{
   font-family: 'Cuprum', sans-serif;
@@ -1636,7 +1637,7 @@ footer{
   margin-top: 31px;
 }
 .features{
-  width: 428px;
+  padding: 50px 0 0 130px;
 }
 .features h2{
   font-size: 30px;
@@ -1651,26 +1652,26 @@ footer{
   width: 428px;
 }
 .slider-sv-btn{
-  position: relative;
-  width: 240px;
-  height: 182px;
+  width: 242px;
+  height: 188px;
 }
 .slider-sv-btn input{
   display: none;
 }
 .slider-sv-btn label{
   position: relative;
-  top: 10px;
+  top: 0;
   left: 0;
-  width: 240px;
+  width: 242px;
   height: 62px;
+  float: left;
 }
 .slider-sv-btn label:before{
   position: absolute;
   content: "";
   width: 240px;
   height: 62px;
-  top: 0px;
+  top: 0;
   left: 0;
   border: 1px solid #4d637b;
   background-color: #32425c;
