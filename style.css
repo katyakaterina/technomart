@@ -1659,16 +1659,10 @@ footer{
   display: none;
 }
 .slider-sv-btn label{
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 242px;
-  height: 62px;
+  
   float: left;
 }
 .slider-sv-btn label:before{
-  position: absolute;
-  content: "";
   width: 240px;
   height: 62px;
   top: 0;
@@ -1678,22 +1672,37 @@ footer{
   color: #ffffff;
 }
 .slider-sv-btn input:checked + label:after{
-  position: absolute;
   content: " ";
   width: 240px;
   height: 62px;
   top: 0;
   left: 0;
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  color: #32425c;
+ 
 }
-.slider-sv-btn p{
-  position: absolute;
-  color: #ffffff;
+
+.slider-sv-btn > input:checked + label {
+  width: 240px;
+  height: 62px;
   font-size: 21px;
+  line-height: calc(30/21);
+  color: #32425c;
+  border: 1px solid #ffffff;
+  background: #ffffff;
 }
+.slider-sv-btn > input + label{
+  width: 240px;
+  height: 62px;
+  display: inline-block;
+  font-size: 21px;
+  line-height: calc(30/21);
+  color: #ffffff;
+  border: 1px solid #32425c;
+  background-color: #32425c;
+  border-bottom: 1px solid #4d627b;
+}
+.slider-sv-btn > label
 
 
-/* ---_________---- */
+
+/* -------------------------- */
 
