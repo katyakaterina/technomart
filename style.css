@@ -1576,6 +1576,7 @@ footer{
   height: 523px;
   margin: 70 0 0 130px;
   background-color: #f4f7f9;
+  clear: both;
 }
 .delievery{
   background-image: url(img/car.png);
@@ -1659,9 +1660,10 @@ footer{
   display: none;
 }
 .slider-sv-btn label{
-  
   float: left;
+  text-indent: 23px;
 }
+/*
 .slider-sv-btn label:before{
   width: 240px;
   height: 62px;
@@ -1677,9 +1679,8 @@ footer{
   height: 62px;
   top: 0;
   left: 0;
- 
 }
-
+*/
 .slider-sv-btn > input:checked + label {
   width: 240px;
   height: 62px;
@@ -1700,9 +1701,5 @@ footer{
   background-color: #32425c;
   border-bottom: 1px solid #4d627b;
 }
-.slider-sv-btn > label
-
-
-
 /* -------------------------- */
 
