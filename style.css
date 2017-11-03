@@ -1281,7 +1281,7 @@
   display: flex;
   justify-content: space-between;
   width: 940px;
-  height: 470px;
+  height: 440px;
   margin: 68px 0 0 250px;
 }
 .about h2{
@@ -1605,10 +1605,58 @@ a.one{
   color: #ffffff;
   text-align: center;
 }
+/* footer */
 footer{
   width: 1200px;
   margin: 0 auto;
-  height: 298px;
+  height: 325px;
+  background-color: #32425c;
+}
+.foot-logo{
+  flex-grow: 4;
+}
+.foot-logo a{
+  height: 68;
+  padding: 13px 41px 13px 41px;
+  font-size: 30;
+  line-height: 1;
+}
+.foot-menu{
+  display: flex;
+  flex-direction: column;
+  margin-top: 37px;
+}
+.foot-menu ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.foot-menu li{
+  flex-grow: 1;
+  padding-top: 15px;
+}
+.foot-menu li:last-child{
+  flex-basis: 150px;
+}
+.foot-menu li a{
+  padding: 12px 12px 12px 12px;
+  font-size: 18px;
+  line-height: calc(24/18);
+  text-decoration: none;
+  color: #ffffff;
+}
+.middle li a{
+  color: #f1c77e;
+}
+.address{
+  flex-grow: 2;
+  margin-left: 130;
+}
+.address p{
+  width: 300px;
+  font-size: 18px;
+  line-height: calc(24/18);
+  color: #ffffff;
 }
 #map{
   width: 300px;
