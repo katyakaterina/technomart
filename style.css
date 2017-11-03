@@ -460,6 +460,7 @@
   }
   header{
     background-color: #f4f7f9;
+    margin: 0 auto;
   }
 .top{
   width: 1200px;
@@ -820,6 +821,12 @@
 }
 #sv-btn1:hover{
   background-color: #293449;
+}
+.write-us:hover{
+  background-color: #ca2c37;
+}
+.write-us:active{
+  background-color: #ca2c37;
 }
 /*  ----------------------------   */
 .items{
