@@ -1609,7 +1609,7 @@ a.one{
 footer{
   width: 1200px;
   margin: 0 auto;
-  height: 325px;
+  height: 300px;
   background-color: #32425c;
 }
 .foot-logo{
@@ -1624,6 +1624,7 @@ footer{
 .foot-menu{
   display: flex;
   flex-direction: column;
+  height: 193px;
   margin-top: 37px;
 }
 .foot-menu ul{
@@ -1633,7 +1634,7 @@ footer{
 }
 .foot-menu li{
   flex-grow: 1;
-  padding-top: 15px;
+  padding-top: 23px;
 }
 .foot-menu li:last-child{
   flex-basis: 150px;
@@ -1645,18 +1646,49 @@ footer{
   text-decoration: none;
   color: #ffffff;
 }
+.middle li{
+  padding-top: 0px;
+}
 .middle li a{
   color: #f1c77e;
 }
 .address{
   flex-grow: 2;
-  margin-left: 130;
+  margin: -17px 0 0 130px;
 }
 .address p{
   width: 300px;
   font-size: 18px;
   line-height: calc(24/18);
   color: #ffffff;
+}
+.foot-boot{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 107px;
+  background-color: #293449;
+  font-size: 16px;
+  line-height: calc(18/16);
+  color: #ffffff;
+}
+.firm{
+  margin-left: 30px;
+}
+.firm p{
+  width: 162px;
+}
+.creator p{
+  width: 140px;
+  float: left;
+  margin-right: 25px;
+}
+.creator p:last-child{
+  margin-right: 0px;
+}
+.creator a{
+  text-decoration: none;
+  color: #f1c77e;
 }
 #map{
   width: 300px;
