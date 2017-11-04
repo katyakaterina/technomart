@@ -1648,19 +1648,20 @@ footer{
 }
 .middle li{
   padding-top: 0px;
+  flex-grow: 3;
 }
 .middle li a{
   color: #f1c77e;
 }
 .address{
-  flex-grow: 2;
-  margin: -17px 0 0 130px;
+  flex-grow: 4;
 }
 .address p{
-  width: 300px;
+  width: 330px;
   font-size: 18px;
   line-height: calc(24/18);
   color: #ffffff;
+  margin: 0 0 0 130px;
 }
 .foot-boot{
   display: flex;
@@ -1673,22 +1674,49 @@ footer{
   color: #ffffff;
 }
 .firm{
-  margin-left: 30px;
+  margin-left: 75px;
 }
 .firm p{
-  width: 162px;
+  width: 215px;
 }
 .creator p{
   width: 140px;
   float: left;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 .creator p:last-child{
-  margin-right: 0px;
+  margin-right: 45px;
 }
 .creator a{
   text-decoration: none;
   color: #f1c77e;
+}
+.social{
+  margin-left: 65px;
+}
+.circle{
+  position: relative;
+  content: "";
+  width: 41px;
+  height: 41px;
+  border: 1px solid #212a3a;
+  background-color: #212a3a;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+}
+.circle a{
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}
+.circle-fc a{
+  top: 12px;
+  left: 13px;
+}
+.circle-insta a{
+  top: 12px;
+  left: 6px;
 }
 #map{
   width: 300px;
