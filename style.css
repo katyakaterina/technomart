@@ -1601,6 +1601,12 @@ button.price{
   color: #000;
   margin-left: 5px;
 }
+.pagination a:hover{
+  border: 1px solid #bdc6ca;
+}
+.pagination a:active{
+  border: 1px solid #ee3643;
+}
 a.one{
   border: 1px solid #ee3643;
   padding: 10px 15px;
