@@ -1768,6 +1768,24 @@ footer{
   top: 12px;
   left: 6px;
 }
+.circle:hover{
+  background-color: #ee3643;
+}
+.circle:active{
+  background-color: #ee3643;
+}
+.creator a:hover{
+  text-decoration: underline;
+}
+.creator a:active{
+  color: #ee3643;
+}
+.foot-menu li a:hover{
+  text-decoration: underline;
+}
+.foot-menu li a:active{
+  opacity: 0.6;
+}
 #map{
   width: 300px;
   height: 158px;
@@ -1894,14 +1912,13 @@ footer{
   float: left;
   text-indent: 23px;
 }
-/*
-.slider-sv-btn label:before{
+.slider-sv-btn label:before:hover{
   width: 240px;
   height: 62px;
   top: 0;
   left: 0;
   border: 1px solid #4d637b;
-  background-color: #32425c;
+  background-color: #293449;
   color: #ffffff;
 }
 .slider-sv-btn input:checked + label:after{
@@ -1911,7 +1928,6 @@ footer{
   top: 0;
   left: 0;
 }
-*/
 .slider-sv-btn > input:checked + label {
   width: 240px;
   height: 62px;
@@ -1919,7 +1935,7 @@ footer{
   line-height: calc(30/21);
   color: #32425c;
   border: 1px solid #ffffff;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 .slider-sv-btn > input + label{
   width: 240px;
@@ -1930,7 +1946,16 @@ footer{
   color: #ffffff;
   border: 1px solid #32425c;
   background-color: #32425c;
-  border-bottom: 1px solid #4d627b;
+  border-bottom: 1px solid #293449;
+  border-top: 1px solid #405069;
 }
+.slider-sv-btn > input:checked + label:hover{
+  background-color: #ffffff;
+}
+.slider-sv-btn > input + label:hover{
+  background-color: #293449;
+}
+
+
 /* -------------------------- */
 
