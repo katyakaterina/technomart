@@ -77,8 +77,10 @@
                         <aside class="the-price">
                             <form action="" method="get">
                                <h3>Цена:</h3>
-                               <label for="peice"></label>
+                               <div class="ctg-range">
+                               <label for="price" class="ctg-road"></label>
                                <input type="range" min="0" max="30000" id="price">
+                               </div>
                                 <div class="begin">
                                    <label for="0"></label>
                                    <input type="text" name="start" id="start" placeholder="0">
@@ -121,7 +123,7 @@
                                  <h3>Питание:</h3>
                                  <div class="ch-group">
                                         <div class="ch-radio">
-                                           <input type="radio" name="check-radio" id="radio1">
+                                           <input type="radio" name="check-radio" id="radio1" checked>
                                            <label for="radio1">Аккумуляторные</label>
                                        </div>
                                         <div class="ch-radio">
