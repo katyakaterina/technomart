@@ -452,8 +452,13 @@
     margin: 0 auto;
   }
   /* modal 1 */
+  .modal{
+    display: none;
+  }
+  .open{
+    display: block;
+  }
 .modal{
-  display: block;
   width: 620px;
   height: 430px;
   position: absolute;
@@ -513,9 +518,17 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+  .modal span.err{
+    opacity: 1;
+  }
   .modal span{
     float: left;
     position: absolute;
+    top: 28%;
+    left: 52%;
+    font-size: 12px;
+    color: #ee3646;
+    opacity: 0;
   }
   .modal input[placeholder]{
     font-family: 'Pt Sans', sans-serif;
@@ -525,7 +538,12 @@
   }
 /* modal 2 */
 .ctg-modal{
+  display: none;
+}
+.open{
   display: block;
+}
+.ctg-modal{
   font-family: 'Cuprum', sans-serif;
   width: 620px;
   height: 280px;
@@ -547,21 +565,23 @@
   line-height: 1;
 }
 .ctg-modal button{
-  width: 220px;
-  height: 38px;
   margin-top: 37px;
   font-family: 'Cuprum', sans-serif;
 }
 .check-order{
+  width: 220px;
+  height: 38px;
   border: 1px solid #ee3643;
   background-color: #ee3643;
   border-radius: 3px;
   color: #ffffff;
+  text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
   line-height: calc(18/14);
-  margin: 0 20px 0 80;
+  margin: 0 20px 0 80px;
+  padding: 9px 58px;
 }
 .shopping{
   border: 1px solid #ffffff;
@@ -572,6 +592,8 @@
   font-size: 14px;
   font-weight: 400;
   line-height: calc(18/14);
+  width: 220px;
+  height: 38px;
 }
 .background{
   height: 112px;
@@ -1960,6 +1982,9 @@ footer{
 .bigmap{
   display: none;
 }
+.open{
+  display: block;
+}
 /* slider 2 */
 .slide-option{
   display: none;
@@ -2136,7 +2161,6 @@ footer{
   widows: 220px;
   height: 80px;
   border: 1px solid ;
-
 }
 .begin{
   float: left;

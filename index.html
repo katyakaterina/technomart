@@ -217,10 +217,27 @@
                         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpmpHFvYPy9WJiGmeCvCO8rSEeEwymsiE&callback=initMap"
                                   async defer>
                         </script>
+                        <div class="bigmap"><img src="img/big-map.jpg"></div>
                     </div>
-                    <div class="bigmap"><img src="img/big-map.jpg"></div>
                     <button class="write-us">Заблудились? Напишите нам!</button>
                 </div>
+            </div>
+            <div class="modal">
+                <form action="" method="get">
+                    <label for="name" class="name"> Ваше имя:
+                      <input type="text" name="login" id="name" placeholder="Представьтесь, пожалуйста" value="">
+                   </label>
+                    <label for="email" class="email"> Ваш e-mail:
+                       <input type="text" name="email" id="email" placeholder="Для отправки ответа" value="">
+                    </label>
+                    <text-area for="letter" class="let"> Текст письма:
+                       <input type="text" name="letter" id="letter" placeholder="В свободной форме">
+                    </text-area>
+                    <div class="send">
+                       <button type="submit" class="send-btn" name="send">Отправить</button>
+                    </div>
+                   <span>Пожалуйста, заполните</span>
+                </form>
             </div>
          <script type="text/javascript" src="javascript.js"> </script>
     </body>
@@ -269,19 +286,4 @@
            </div>
         </div>
     </footer>
-    <div class="modal">
-            <label for="name" class="name"> Ваше имя:
-                <input type="text" name="login" id="name" placeholder="Представьтесь, пожалуйста" value="">
-            </label>
-            <label for="email" class="email"> Ваш e-mail:
-                <input type="text" name="email" id="email" placeholder="Для отправки ответа" value="">
-            </label>
-            <text-area for="letter" class="let"> Текст письма:
-                <input type="text" name="letter" id="letter" placeholder="В свободной форме">
-            </text-area>
-            <div class="send">
-            <button class="send-btn">Отправить</button>
-            </div>
-            <span>Пожалуйста, заполните</span>
-        </div>
 </HTML>
