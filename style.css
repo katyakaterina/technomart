@@ -711,18 +711,23 @@
 }
 .user-block{
   display: block;
-  margin-top: 40px;
-  margin-left: 131px;
-  height: 120px;
+  margin: 40px 0 0 130px;
+  height: 118px;
   width: 940px;
 }
 .shop{
   float: left;
-  width: 201px;
-  margin-left: 55px;
+  width: 200px;
+  height: 90px;
+  margin-left: 51px;
+}
+.shop p{
   font-size: 16px;
   font-style: italic;
   color: #ee3643;
+  line-height: calc(24/16);
+  margin: 0;
+  padding-top: 8px;
 }
 .contact-info{
   float: left;
@@ -739,7 +744,7 @@
   text-decoration: none;
   color: #ee3643;
   border: 3px solid #ffffff;
-  padding: 10px 50px 10px 80px;
+  padding: 9px 50px 9px 80px;
   background-image: url(img/phone-icon.png);
   background-position: 10px 13px;
   background-repeat: no-repeat;
@@ -766,31 +771,50 @@
   padding: 10px 20px 10px 30px;
   margin-left: 7px;
 }
+.dot{
+  position: relative;
+}
+.dot:before{
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 2px;
+  top: 6px;
+  left: 108px;
+  border: 2px solid;
+  border-radius: 50%;
+}
 .ctg-user{
   float: left;
+  width: 300px;
+  height: 46px;
+  margin-left: 48px;
+  margin-top: 5px;
+  background-color: #ffffffff;
 }
 .ctg-user p{
   font-size: 21px;
   line-height: calc(18/21);
-  width: 186px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
-  padding: 14px 70px 14px 50px;
-  margin: 5px 0px 5px 37px;
+  margin: 13px 0px 20px 47px;
   background-image: url(img/user-icon.png);
   background-position: 14px;
   background-repeat: no-repeat;
   background-image: url(img/logout-icon.png);
-  background-position: 268px 14px;
+  background-position: 222px 1px;
   background-repeat: no-repeat;
 }
-
 .ctg-user a{
   font-size: 16px;
   line-height: calc(18/16);
   text-decoration: underline;
   color: #32425c;
-  margin-left: 70px;
+  margin-left: 19px;
+  float: left;
+}
+.privat:last-child{
+  margin-left: 32px;
 }
 .main-menu{
   display: flex;
@@ -799,7 +823,7 @@
   margin: 0;
 }
 .menu{
-  width: 940px;
+  width: 938px;
   height: 55px;
   border: 1px solid #32425c;
   border-bottom: 5px solid #293449;
