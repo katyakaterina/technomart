@@ -10,7 +10,7 @@ var storage = localStorage.getItem('login');
 var button = document.querySelector(".buy");
 var link = document.querySelector("#map");
 var modal = document.querySelector(".ctg-modal");
-var link = modal.querySelector(".check-order");
+var link2 = modal.querySelector(".check-order");
 var button = modal.querySelector(".shopping");
 
 

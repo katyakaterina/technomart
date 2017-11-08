@@ -1302,7 +1302,7 @@
   font-weight: 700;
   line-height: calc(18/17);
   color: #ffffff;
-  margin: 9px 0 0 44px;
+  margin: 8px 0 0 47px;
 }
 .cost:after{
   content: "";
@@ -1985,15 +1985,15 @@ footer{
 .circle a{
   position: absolute;
   top: 14px;
-  left: 10px;
+  left: 8px;
 }
 .circle-fc a{
-  top: 12px;
-  left: 13px;
+  top: 9px;
+  left: 14px;
 }
 .circle-insta a{
-  top: 12px;
-  left: 6px;
+  top: 10px;
+  left: 10px;
 }
 .circle:hover{
   background-color: #ee3643;
