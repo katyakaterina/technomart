@@ -1,15 +1,24 @@
 
 // купить
+button.addEventListener("click", function (e){
+  OpenModal(".button", ".modal")
+});
+function OpenModal(button, modal) {
+ var button = document.querySelector(".buy");
+ var modal = document.querySelector(".ctg-modal");
+ var link = modal.querySelector(".check-order");
+ var button = modal.querySelector(".shopping");
 
-// var button = document.querySelector(".buy");
-// var modal = document.querySelector(".ctg-modal");
-// var link = modal.querySelector(".check-order");
-// var button = modal.querySelector(".shopping");
+button.addEventListener('click', function(e){
+e.preventDefault();
+ console.log(modal.classList.contains("open"));
+modal.classList.toggle("open");
 
-// button.addEventListener('click', function(e){
-// e.preventDefault();
-// console.log(modal.classList.contains("open"));
-// modal.classList.toggle("open");
+
+
+});
+}
+
 
 
 
