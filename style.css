@@ -1573,7 +1573,7 @@
 }
 .marks{
   height: 264px;
-  margin-top: 4px;
+  margin-top: 21px;
   border-top: 1px solid #c5c5c5;
 }
 .marks h3{
@@ -2198,10 +2198,13 @@ footer{
   color: #000;
 }
 .the-price input[type="range"]{
-  widows: 220px;
+  width: 220px;
   height: 80px;
   border: 1px solid ;
 }
 .begin{
   float: left;
+}
+.finish{
+  float: right;
 }
