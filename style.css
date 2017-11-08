@@ -1514,23 +1514,15 @@
 .arrow:before{
   content: "";
   position: absolute;
-  border-left: 9px solid transparent;
-  border-right: 9px solid #c1c6c1;
-  border-bottom: 9px solid transparent;
-  top: 3px;
-  left: -17px;
-  transform: rotate(45deg);  
-}
-.arrow:after{
-  content: "";
-  position: absolute;
-  border-left: 9px solid transparent;
-  border-right: 9px solid #ffffff;
-  border-bottom: 9px solid transparent;
-  top: 3px;
-  left: -19px;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #c5c5c5;
+  border-right: 2px solid #c5c5c5;
+  top: 5px;
+  left: -7px;
   transform: rotate(45deg);
 }
+
 .contain{
   display: flex;
 }
