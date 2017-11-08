@@ -820,8 +820,7 @@
 .main-menu{
   display: flex;
   list-style: none;
-  padding: 17px 0 0 0;
-  margin: 0;
+  padding: 0;
 }
 .menu{
   width: 938px;
@@ -835,7 +834,7 @@
   color: #ffffff;
   text-decoration: none;
   border: 1px solid transparent;
-  padding: 17px 38px 23px 31px;
+  padding: 16px 35px 23px 34px;
 }
 .main-tech{
   width: 940px;
