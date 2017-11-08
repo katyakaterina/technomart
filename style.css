@@ -694,7 +694,7 @@
 }
 .ctg-basket a{
   border: 1px solid transparent;
-  padding: 11px 27px 11px 50px;
+  padding: 11px 30px 11px 45px;
   background-color: #ee3643;
   background-image: url(img/basket-icon.png);
   background-position: 17px;
@@ -707,7 +707,7 @@
 .order a{
   border: 1px solid transparent;
   background: #63a63e;
-  padding: 11px 23px 11px 26px;
+  padding: 11px 25px 11px 20px;
 }
 .user-block{
   display: block;
@@ -935,12 +935,12 @@
 }
 .ctg-user p:hover{
   background-image: url(img/logout-icon2.png);
-  background-position: 268px 14px;
+  background-position: 222px 1px;
   background-repeat: no-repeat;
 }
 .ctg-user p:active{
   background-image: url(img/logout-icon.png);
-  background-position: 268px 14px;
+  background-position: 222px 1px;
   background-repeat: no-repeat;
   color:#c5c5c5;
 }
@@ -1510,7 +1510,7 @@
   background-repeat: no-repeat;
   padding: 48px 17px 0 0px;
 }
-  /* стрелочки ^___^ */
+  /* стрелочки */
 .arrow:before{
   content: "";
   position: absolute;
@@ -1522,7 +1522,6 @@
   left: -7px;
   transform: rotate(45deg);
 }
-
 .contain{
   display: flex;
 }

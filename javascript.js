@@ -1,10 +1,23 @@
 
 // купить
 
-var button = document.querySelector(".buy");
-var modal = document.querySelector(".ctg-modal");
+// var button = document.querySelector(".buy");
+// var modal = document.querySelector(".ctg-modal");
 // var link = modal.querySelector(".check-order");
 // var button = modal.querySelector(".shopping");
+
+// button.addEventListener('click', function(e){
+// e.preventDefault();
+// console.log(modal.classList.contains("open"));
+// modal.classList.toggle("open");
+
+
+
+
+
+
+
+
 
 // карта
 var map;
@@ -39,8 +52,6 @@ function initMap() {
   var submit = modal.querySelector(".submit");
   var error = modal.querySelector('span');
   var storage = localStorage.getItem('login');  
-
-
 
   button.addEventListener("click", function (e) {
  	 e.preventDefault();
