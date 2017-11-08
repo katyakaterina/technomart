@@ -1587,7 +1587,7 @@
 .battery h3{
   margin: 23px 0 17px 0;
 }
-/* чекбоксы */
+/* чекбоксы галочки */
 .ch-group{
   display: block;
   margin-top: 7px;
@@ -1618,14 +1618,15 @@
 .ch-gr input:checked + label:after{
   position: absolute;
   content: "";
-  width: 7px;
+  width: 17px;
   height: 7px;
-  border: 1px solid #c5c5c5;
-  background-color: #c5c5c5;
-  border-radius: 2px;
-  top: 4px;
-  left: -18px;
+  border-top: 4px solid #c5c5c5;
+  border-right: 4px solid #c5c5c5;
+  top:-2px;
+  left: -20px;
+  transform: rotate(135deg);
 }
+/* радио кружочки */
 .ch-radio{
   padding: 2px 0 18px 25px;
 }
