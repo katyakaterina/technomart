@@ -820,7 +820,7 @@
 .main-menu{
   display: flex;
   list-style: none;
-  padding: 17px 25px;
+  padding: 17px 0 0 0;
   margin: 0;
 }
 .menu{
@@ -831,17 +831,11 @@
   background-color: #32425c;
   margin-left: 130px;
 }
-.main-menu li{
-  flex-grow: 4;
-}
-.main-menu li.contact{
-  flex-grow: 0;
-}
 .main-menu a{
   color: #ffffff;
   text-decoration: none;
   border: 1px solid transparent;
-  padding: 17px 31px 23px;
+  padding: 17px 38px 23px 31px;
 }
 .main-tech{
   width: 940px;
