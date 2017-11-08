@@ -781,7 +781,8 @@
   height: 2px;
   top: 6px;
   left: 108px;
-  border: 2px solid;
+  border: 2px solid #32425c;
+  background-color: #32425c;
   border-radius: 50%;
 }
 .ctg-user{
@@ -1155,6 +1156,18 @@
   display: block;
   width: 620px;
   height: 100%;
+}
+.top-road{
+  position: relative;
+}
+.top-road:before{
+  position: absolute;
+  content: "";
+  width: 618px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .slide a{
   text-decoration: none;
