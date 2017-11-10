@@ -1,8 +1,6 @@
 
 // купить
-button.addEventListener("click", function (e){
-  OpenModal(".button", ".modal")
-});
+
 function OpenModal(button, modal) {
  var button = document.querySelector(".buy");
  var modal = document.querySelector(".ctg-modal");
