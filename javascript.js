@@ -2,15 +2,23 @@
 // купить
 
 function OpenModal(button, modal) {
- var button = document.querySelector(".buy");
- var modal = document.querySelector(".ctg-modal");
+ var button1 = document.querySelector(".buy");
+ var modal2 = document.querySelector(".ctg-modal");
  var link = modal.querySelector(".check-order");
- var button = modal.querySelector(".shopping");
+ var button2 = modal.querySelector(".shopping");
 
-button.addEventListener('click', function(e){
+button1.addEventListener('click', function(e){
 e.preventDefault();
- console.log(modal.classList.contains("open"));
-modal.classList.toggle("open");
+ console.log(modal2.classList.contains("open"));
+modal2.classList.OpenModal("open");
+
+window.addEventListener("keydown", function(e) {
+  if(e.keyCode === 27) {
+    modal2.classList.remove('open');
+  }
+});
+
+
 
 
 
@@ -101,3 +109,52 @@ function initMap() {
       
     }
   });
+
+
+
+
+
+  var pagination = document.querySelector(".pagination");
+  pagination.addEventListener("click", function(e) {
+  
+  var link = e.pagination;
+  if (!link.classList.contains('active'))
+  link.classList.add('active');
+  else
+  link.classList.remove('active');
+  
+  });
+
+  var ul = document.getElementByClassName(".main-menu");
+  var link = document.querySelector(".catalog");
+
+  main-menu.addEventListener("click", function(e) {
+  var link = e.main-menu;
+
+  link.addEventListener("click", function (e) {
+ 	 e.preventDefault();
+ 	 console.log(link.classList.contains("active"));
+     link.classList.add("active");
+
+
+     if (!link.classList.contains('active'))
+     link.classList.add('active');
+     else
+     link.classList.remove('active');
+     
+       }
+     )
+
+
+    })
+    var menuLinkHandler = function(e) {
+     var link = e.currentTarget;
+     if(!link.classList.contains("active"))
+     link.classList.add("active");
+     else
+     link.classList.remove("active");
+    };
+    for (var i=0; i<link.length; i++){
+      link.addEventListener("click", menuLinkHandler);
+
+    }

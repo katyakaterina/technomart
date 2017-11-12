@@ -1358,7 +1358,7 @@
   grid-template-columns: 220px 220px 220px 220px;
   align-items: center;
   justify-items: center;
-  margin-top: 21px;
+  margin-top: 16px;
 }
 .brands a{
   border: 1px solid #e5e5e5;
@@ -1392,7 +1392,7 @@
   justify-content: space-between;
   width: 940px;
   height: 392px;
-  margin: 68px 0 86px 250px;
+  margin: 0 0 86px 250px;
 }
 .about h2{
   font-size: 30px;
@@ -2034,7 +2034,7 @@ footer{
   background-repeat: no-repeat;
 }
 .wrap{
-  margin: 70 auto;
+  margin: 83px 0 60px 121px;
   width: 1200;
   height: 523px;
   background-color: #f4f7f9;
@@ -2110,6 +2110,7 @@ footer{
   line-height: 1;
   font-weight: 400;
   text-transform: uppercase;
+  padding-top: 68px;
 }
 .features p{
   font-family: 'Pt Sans', sans-serif;
@@ -2221,4 +2222,7 @@ input[type="range"]::-webkit-slider-thumb{
   background-color: #000;
   top: 18px;
   left: 104px;
+}
+.active{
+  background-color: blue;
 }
