@@ -833,11 +833,16 @@
   border: 1px solid transparent;
   padding: 15px 35px 23px 34px;
 }
-.main-tech{
+.items-wrapper{
   width: 940px;
   margin: 0 auto;
 }
-.items-wrapper{
+.popular-wrapper{
+  width: 940px;
+  height: 428px;
+  margin: 0 auto;
+}
+.brands-wrapper{
   width: 940px;
   margin: 0 auto;
 }
@@ -1321,9 +1326,6 @@
   transform: rotate(45deg); 
   color: #ffffff;
   text-align: center;
-}
-.popular{
-  height: 420px;
 }
 .pop{
   display: flex;
