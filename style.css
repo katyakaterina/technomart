@@ -837,6 +837,10 @@
   width: 940px;
   margin: 0 auto;
 }
+.items-wrapper{
+  width: 940px;
+  margin: 0 auto;
+}
 /* ссылки */
 .menu a:hover{
   background-color: #293449;
