@@ -600,13 +600,12 @@
   background-color: #f1f1f1;
 }
 /* -------------------------------- */
-  .goods{
-      font-family: 'pt-sans', sans-serif;
-  }
-  header{
-    background-color: #f4f7f9;
-    margin: 0 auto;
-  }
+.goods{
+  font-family: 'pt-sans', sans-serif;
+}
+header{
+  background-color: #f4f7f9;
+}
 .container{
   width: 1200px;
   height: 320px;
